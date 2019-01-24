@@ -89,7 +89,7 @@ a>i {
 .mobile {
     text-decoration: inherit;
     color: whitesmoke !important;
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px 0 25px;
     color: whitesmoke;
     letter-spacing: 1px;
@@ -109,7 +109,7 @@ a>i {
 .location {
     text-decoration: inherit;
     color: whitesmoke !important;
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px 0 25px;
     color: whitesmoke;
     letter-spacing: 1px;
@@ -129,7 +129,7 @@ a>i {
 .email {
     text-decoration: inherit;
     color: whitesmoke !important;
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px 0 25px;
     color: whitesmoke;
     letter-spacing: 1px;
@@ -142,6 +142,26 @@ a>i {
 }
 
 .email:hover {
+    text-decoration: inherit;
+    color: whitesmoke !important;
+}
+
+.openinghours {
+    text-decoration: inherit;
+    color: whitesmoke !important;
+    font-size: 17px;
+    margin: 20px 0 25px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.openinghours>i {
+    text-decoration: inherit;
+    color: whitesmoke;
+}
+
+.openinghours:hover {
     text-decoration: inherit;
     color: whitesmoke !important;
 }
@@ -190,5 +210,5 @@ a>i {
     text-align: center;
     margin-top: 50px;
     color: whitesmoke;
-
+    font-size: 15px !important;
 }
