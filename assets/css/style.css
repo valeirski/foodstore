@@ -25,7 +25,7 @@ h1 {
 .theme-btn {
     border-radius: 50px;
     background: whitesmoke;
-    padding: 15px 30px;
+    max-height: 40px;
     min-width: 170px;
     color: black;
     font-size: 14px;
@@ -45,6 +45,24 @@ h1 {
     background: grey;
     color: #333;
 }
+
+.menuicon {
+    margin-top: 50px;
+    display: inline-block;
+    transition: all 0.5s ease-in;
+    text-align: center;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.broodjeskoerier {
+    display: flex;
+    justify-content: center;
+}
+
 
 .icon-bar {
     position: fixed;
@@ -94,6 +112,7 @@ a>i {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    opacity: 0.6;
 }
 
 .mobile>i {
@@ -104,6 +123,7 @@ a>i {
 .mobile:hover {
     text-decoration: inherit;
     color: whitesmoke !important;
+    opacity: 1;
 }
 
 .location {
@@ -114,6 +134,7 @@ a>i {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    opacity: 0.6;
 }
 
 .location>i {
@@ -124,6 +145,7 @@ a>i {
 .location:hover {
     text-decoration: inherit;
     color: whitesmoke !important;
+    opacity: 1;
 }
 
 .email {
@@ -134,6 +156,7 @@ a>i {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    opacity: 0.6;
 }
 
 .email>i {
@@ -144,6 +167,7 @@ a>i {
 .email:hover {
     text-decoration: inherit;
     color: whitesmoke !important;
+    opacity: 1;
 }
 
 .openinghours {
@@ -154,6 +178,7 @@ a>i {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    opacity: 0.6;
 }
 
 .openinghours>i {
@@ -164,10 +189,28 @@ a>i {
 .openinghours:hover {
     text-decoration: inherit;
     color: whitesmoke !important;
+    opacity: 1;
+}
+
+.broodjeskoerier {
+   text-align: center;
+}
+
+.broodjeskoerier>a {
+    text-decoration: none !important;
+    color: white;
+    opacity: 0.6;
+    padding-top: 10px;
+}
+
+.broodjeskoerier>a:hover {
+    text-decoration: none !important;
+    color: white;
+    opacity: 1;
 }
 
 .col-lg-6>a>i {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .img-responsive {
@@ -181,8 +224,8 @@ a>i {
 }
 
 .text-div {
-    margin-top: 50px;
     text-align: center;
+    padding: 0px !important;
 }
 
 .text-div > ul {
